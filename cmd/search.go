@@ -98,7 +98,7 @@ func prepareFlags() {
 		&config.Key, "key", "k", config.Key, "path to key.pem for TLS")
 }
 
-// Where all the work happens.
+// performCommand; Where all the work happens.
 func performCommand(cmd *cobra.Command, args []string) error {
 	if config.DisplayVersion {
 		fmt.Printf("%s %s\n", appName, version)

@@ -15,7 +15,7 @@ func init() {
 // Provider merely implements the Provider interface.
 type Provider struct{}
 
-// If the query contains more than 1 word, the format to binary logical
+// formatWithOp; If the query contains more than 1 word, the format to binary logical
 // combination as follows:
 // "neural networks" -> "OP neural networks"
 // "convolutional neural networks" -> "OP networks OP convolutional neural"
